@@ -233,7 +233,7 @@ public class Percolation {
     private int fromCoords(int row, int col) {
         // i.e. site located at (4, 3) in a 5-by-5 grid (n = 5) has its tracking data located at position 17
         // in the status/top/bottom uni-dimensional arrays (where 0 is the first element position in the array)
-        // row = 2
+        // row = 4
         // col = 3
         // n = 5
         // flattened index = ((4 - 1) * 5) + (3 - 1) = (3 * 5) + 2 = 15 + 2 = 17
